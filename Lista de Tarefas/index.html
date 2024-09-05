@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./src/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Lista de Tarefas</h2><br>
+
+        <p><em><b>Instruçoes:</b>
+        <ul>
+            <!-- Instruçoes de uso para utilizar a lista de tarefas -->
+            <li>Digite uma tarefa no campo abaixo e clique em Enter ou no botao 'Adicionar'.</li>
+            <li>Mova as tarefas com o mouse para reorganizá-las na lista.</li>
+            <li>Utilize a checkbox para marcar as tarefas após completá-las.</li>
+            <li>Clique duas vezes na tarefa para marcá-la como algo 'irrelevante'.</li>
+            <li>Clique no "X" para remover a tarefa da lista.</li>
+
+        </ul></em></p>
+
+        <!-- Formulário da lista de tarefas -->
+        <form name="listaDeTarefas">
+            <input type="text" name="listaDeItens" id="input">
+        </form>
+
+        <!-- Inserçao de dados na lista de tarefas -->
+        <div onclick="novoItem()" id="botao">Adicionar</div>
+        <br>
+        <ol id="lista"></ol>
+        
+        
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js" 
+    integrity="sha256-u0L8aA6Ev3bY2HI4y0CAyr9H8FRWgX4hZ9+K7C2nzdc=" 
+    crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>

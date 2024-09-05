@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font: normal normal 13px/16px "Opens Sans", sans-serif;
+    background-color:antiquewhite;
+}
+
+.container {
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    padding: 4px 15px 4px 5px;
+}
+
+#botao {
+    display: inline-block;
+    background-color: #fc999b;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    padding: 5px 15px;
+}
+
+ol {
+    padding-left: 20px;
+    counter-reset: item;
+}
+
+ol li {
+    padding: 5px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+ol li:nth-child(even) {
+    background-color: yellow;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #1dca17;
+}
+
+.completo {
+    color: #1dca17;
+}
+
+.irrelevante {
+    color: #cccccc;
+}
+
+.strike2 {
+    text-decoration: line-through;
+    color: #cccccc;
+}
+
+.remover {
+    display: none;
+}
+
+.removerBotao:hover, li:hover, #botao:hover {
+    cursor: pointer;
+}
+
+.concluidaCheckbox {
+    margin: 0 30px;
+}
+.removerBotao {
+    background: none;
+    border: none;
+    color: black;
+    font-weight: 800;
+    margin-left: auto;
+}
