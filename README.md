@@ -1,1 +1,1 @@
-* Resoluçao do exercício sobre Recursos do ES6+
+* Resoluçao de exercícios da EBAC
